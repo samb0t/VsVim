@@ -18,6 +18,7 @@ type internal FileSystem() =
             ("_vsvimrc", VimRcKind.VsVimRc)
             (".vimrc", VimRcKind.VimRc)
             ("_vimrc", VimRcKind.VimRc)
+            ("vimrc", VimRcKind.VimRc)
         ]
 
     /// Read all of the lines from the given StreamReader.  This will return whether or not 
